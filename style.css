@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----preloader----*/
+
+.contPreloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: rgb(14, 2, 2);
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+
+  /****************/
+
+.hidden{
+    overflow: hidden;
+}
+
+/*****************/
+
+
+.contSection{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 45%;
+    height: 55vh;
+    border-radius: 20px;
+    background-color: bisque;
+    border: 4px ridge burlywood;
+    transition: all 0.5s;
+    clip-path: circle(138.7% at 99% 1%);
+}
+.xxx{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 18px;
+ 
+}
+
+.cir2{   
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: burlywood;
+    margin-left: 9px;
+    cursor: pointer;
+}
+.cir3{   
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: brown;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.contTitulo{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+span{
+    color: rgb(148, 106, 52);
+  
+}
+
+.contForm{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.conjunto{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.check{
+    margin-right: 10px;
+}
+
+.inpu{
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    width: 80%;
+    height: 28px;
+    box-shadow: 0px 1px 1px 0px grey;
+}
+
+.inpu:hover{
+    border: 2px ridge burlywood;    
+    border-radius: 3px;
+
+}
+
+.inpuTextarea{
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    width: 80%;
+    box-shadow: 0px 1px 1px 0px grey;
+    resize: vertical;
+    min-height: 40px;
+    max-height: 100px;
+}
+
+.inpuTextarea:hover {
+    border: 2px ridge burlywood;    
+    border-radius: 3px;
+}
+
+.button{
+    background: rgb(248, 239, 228);
+    cursor: pointer;
+    margin: 20px 225px ;
+    border-radius: 3px;
+    width: 80px;
+    height: 25px;
+    border: burlywood 1px ridge;
+    box-shadow: 1px 0px 2px 1px rgb(189, 189, 190);
+    transition: all 0.3s;
+
+    
+}
+
+.button:hover{
+    background: burlywood;
+    transition: all 0.3s;
+}
+
+
+/* ------css---gracias.html---------*/
+
+
+.contenedorMayor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(252, 249, 246);
+    
+}
+
+.contInterno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 35vh;
+    margin-top: 50px;
+    background-color: rgb(255, 238, 218);
+    border: 3px ridge burlywood;
+}
+
+.contMensaje{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin-top: 0px;
+   
+
+
+}
+
+.mensaje{
+
+    color: crimson;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+   
+}
+.contVolver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+  
+    
+    
+}
+
+
+.contDetalle{
+    display: flex;
+    width: 98%;
+    height: 40%;
+   
+ 
+    
+}
+
+.detalle{
+    text-align: left;
+    margin-top: 0px;
+}
+

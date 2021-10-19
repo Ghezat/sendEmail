@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body > 
+    <main>
+        <div class="contPreloader">
+            <div class="lds-facebook"><div></div><div></div><div></div></div>
+        </div>    
+        <section class="contSection" id="idSection">
+
+            <div class="xxx">
+                <div class="cir2" title="show form" onclick="showForm()"></div>
+                <div class="cir3" title="hide form" onclick="hideForm()"></div>
+            </div>
+
+            <div class= "contTitulo">
+                <h2>Formulario escritorio juridico <span> BabincZuk </span></h2>
+            </div>
+
+            <div class="contForm" id="idForm">
+                <form action="https://formsubmit.co/scorpinosred@gmail.com"  method = "POST" class="form">
+                    <div class="conjunto"> <img src="./img/check.png" alt="" class="check">
+                        <input type="text"  name="name"  class="inpu" placeholder="intro your name" id="name" required>
+                    </div>
+                    <div class="conjunto"> <img src="./img/check.png" alt="" class="check">
+                        <input type="email"  name="email" class="inpu"  placeholder="intro your email"  id="correo" required>
+                    </div>
+                    <div class="conjunto"> <img src="./img/check.png" alt="" class="check">
+                        <textarea name="information" cols="0" rows="5" class="inpuTextarea"  placeholder="intro your message" id="mensag" required></textarea>
+                    </div>
+                    <input type = "hidden" name = "_cc" value = "scorpinosred@gmail">
+                    <input type = "hidden" name = "_next" value = "http://127.0.0.1:5500/gracias.html">
+                    
+                    <input type="submit" value="send" class="button">
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <script src="engine.js"></script>
+</body>
+</html>
