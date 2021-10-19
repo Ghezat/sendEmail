@@ -1,9 +1,9 @@
 window.onload = function(){
 
     setInterval(function(){
-        document.querySelector(".contPreloader").style.display = 'none'; }, 6000);  
+        document.querySelector(".contPreloader").style.display = 'none'; }, 5000);  
      
-      
+      /*el setinterval simula el tiempo de carga de la pagina com osi estuviese en un servidor*/
       
 }
 
